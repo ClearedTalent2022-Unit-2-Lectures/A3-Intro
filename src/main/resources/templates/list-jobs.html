@@ -11,7 +11,13 @@
     <h1 th:text="${#strings.capitalizeWords(title)}"></h1>
 
     <!-- TODO #1 - Use a loop to display job results in a table. -->
+<!-- We just determined that the ListController is passing a list of jobs (called "jobs")
+     into this view. So our task is to take this jobs list and using Thymeleaf render out any
+     jobs in this jobs list to this page-->
 
+    <table class="job-listing">
+
+    </table>
 </div>
 
 </body>

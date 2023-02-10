@@ -22,5 +22,14 @@ public class SearchController {
     }
 
     // TODO #3 - Create a handler to process a search request and render the updated search view.
+    //  What kind of request is this handler method going to be mapped to?
+    //  What path do we need to map this method to?
+    //  Since we are handling a request that's coming from a form, there is some data attached
+    //  to our request. What is that data called?
+    //  What html view should this method render?
+
+
+
+
 
 }
